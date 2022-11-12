@@ -13,14 +13,19 @@
             <img src="{{post.image.url}}" alt="{{post.title}}" class="img-fluid mx-auto d-block">
 
 </div>
-    <p>{{post.description|safe}}</p>
     
 
     
     
     </div>
 
-
+<br>
 </div>
 
+    <p class="card-text">{{post.description|safe}}</p>
+    
+    <br>
+<strong>Gracias por leer! Si necesitas ayuda contactame</strong>
+    <br>
+    <a href="{{post.url}}" class="btn btn-warning">Mi instagram</a>
 {% endblock %}
